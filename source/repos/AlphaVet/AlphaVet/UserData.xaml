@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlphaVet.UserData"
+             BackgroundColor="White">
+
+    <VerticalStackLayout Padding="30" Spacing="15">
+
+        <Label Text="Dados do Usuário"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               TextColor="Black"/>
+
+        <Label Text="E-mail:" FontAttributes="Bold" TextColor="Black"/>
+        <Label x:Name="emailLabel" Text="-" TextColor="Black"/>
+
+        <Label Text="Nome do Responsável:" FontAttributes="Bold" TextColor="Black"/>
+        <Label x:Name="nomeLabel" Text="-" TextColor="Black"/>
+
+        <Label Text="CPF:" FontAttributes="Bold" TextColor="Black"/>
+        <Label x:Name="cpfLabel" Text="-" TextColor="Black"/>
+
+        <Label Text="Data de Nascimento:" FontAttributes="Bold" TextColor="Black"/>
+        <Label x:Name="dataNascLabel" Text="-" TextColor="Black"/>
+
+        <Button Text="Início"
+                BackgroundColor="#ff888f"
+                TextColor="White"
+                CornerRadius="20"
+                Padding="47,0,47,0"
+                HorizontalOptions="Center"
+                Clicked="init_Pressed"/>
+
+        <Button Text="Excluir Cadastro"
+            TextColor="White"
+            BackgroundColor="Red"
+            FontAttributes="Bold"
+            CornerRadius="20"
+            Padding="10"
+            HorizontalOptions="Center"
+            Clicked="del_Pressed"/>
+
+    </VerticalStackLayout>
+</ContentPage>

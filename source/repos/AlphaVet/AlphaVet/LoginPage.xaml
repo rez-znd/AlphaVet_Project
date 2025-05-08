@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlphaVet.LoginPage">
+
+    <Grid 
+        RowDefinitions="*,Auto" 
+        BackgroundColor="White">
+
+        <ScrollView 
+            Grid.Row="0"
+            BackgroundColor="White">
+
+            <VerticalStackLayout 
+                Padding="30,0" 
+                Spacing="15">
+
+                <Image
+                    WidthRequest="160"
+                    Source="logoalphav.png"
+                    Margin="0,-20,0,15"/>
+                
+                <Label
+                    Text="AlphaVet"
+                    FontFamily="AlphaVet"
+                    FontSize="33"
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    Margin="0,-60,0,5"
+                    />
+                
+                <VerticalStackLayout>
+                    
+                    <Label
+                        FontFamily="MainFont"
+                        Text="E-mail"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        WidthRequest="225"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+                    
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+                        
+                        <Entry
+                            x:Name="email"
+                            FontFamily="MainFont"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                        />
+                        
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+                    <Label
+                        FontFamily="MainFont"
+                        Text="Senha"
+                        TextColor="Black"
+                        WidthRequest="225"
+                        Padding="0,0,0,5"
+                        FontSize="18"
+                        FontAttributes="Bold"/>
+                    
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5"
+                        Margin="0,0,0,10">
+                       
+                        <Entry
+                        x:Name="password"
+                        FontAttributes="Bold"
+                        FontFamily="MainFont"
+                        BackgroundColor="white"
+                        IsPassword="True"
+                        TextColor="Black"
+                        />
+                    </Border>
+                </VerticalStackLayout>
+
+                <Button
+                    FontFamily="MainFont"
+                    x:Name="confirm"
+                    Text="Confirmar"
+                    BorderWidth="2"
+                    BorderColor="#ff888f"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    WidthRequest="105"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    CornerRadius="20"
+                    Margin="122,5,0,0"
+                    Clicked="confirm_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+                <Button
+                    FontFamily="MainFont"
+                    x:Name="back"
+                    Text="Voltar"
+                    BorderWidth="2"
+                    BorderColor="#ff888f"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    WidthRequest="105"
+                    FontSize="14"
+                    CornerRadius="20"
+                    FontAttributes="Bold"
+                    Margin="-3,-58,120,0"
+                    Clicked="back_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Label 
+            FontFamily="MainFont"
+            Grid.Row="1"
+            FontSize="16"
+            TextColor="Black"
+            FontAttributes="Bold"
+            Text="Termos de Uso | Política de Dados"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            Padding="10"
+            />
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlphaVet.MainPage">
+
+    <Grid 
+        RowDefinitions="*,Auto" 
+        BackgroundColor="White">
+
+        <ScrollView 
+            Grid.Row="0"
+            BackgroundColor="White">
+
+            <VerticalStackLayout 
+                Padding="30,0" 
+                Spacing="15">
+
+                <Image
+                    WidthRequest="160"
+                    Source="logoalphav.png"
+                    Margin="0,40,0,5"/>
+
+                <Label
+                    Text="AlphaVet"
+                    FontFamily="AlphaVet"
+                    FontSize="33"
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    Margin="0,-60,0,30"
+                    />
+
+                <Button
+                    x:Name="Loginbtn"
+                    FontFamily="MainFont"
+                    Text="Fazer Login"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    BorderColor="#ff888f"
+                    BorderWidth="2"
+                    FontSize="18"
+                    WidthRequest="180"
+                    Clicked="Loginbtn_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+                <Label
+                    Text="Ou"
+                    TextColor="Black"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    FontFamily="MainFont"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    Margin="0,0,0,3 "/>
+
+                <Button
+                    x:Name="cadasbtn"
+                    Text="Cadastre-se"
+                    FontAttributes="Bold"
+                    FontFamily="MainFont"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    BorderColor="#ff888f"
+                    BorderWidth="2"
+                    FontSize="18"
+                    WidthRequest="180"
+                    Clicked="cadasbtn_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Label
+            FontFamily="MainFont"
+            x:Name="termos"
+            FontSize="16"
+            TextColor="Black"
+            FontAttributes="Bold"
+            Grid.Row="1"
+            Text="Termos de Uso | Política de Dados"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            Padding="10"/>
+    </Grid>
+
+</ContentPage>

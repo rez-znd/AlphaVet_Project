@@ -1,0 +1,64 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlphaVet.Sobre">
+    <VerticalStackLayout
+        BackgroundColor="White">
+
+        <Image
+            WidthRequest="160"
+            Source="logoalphav.png"
+            Margin="0,-20,0,15"/>
+
+        <Label
+            Text="AlphaVet"
+            FontSize="33"
+            TextColor="Black"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"
+            Margin="0,-50,0,5"
+            />
+
+
+        <Label 
+            Text="Kauê Henrique Rezende de Fóes"
+            TextColor="Black"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="20"
+            Margin="0,5,0,0"
+            />
+        
+        <Label 
+            Text="RA: 2404737"
+            TextColor="Black"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="20"
+            Margin="0,10,0,0"
+            />
+
+        <Label 
+            Text="02/04/2025"
+            TextColor="Black"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="20"
+            Margin="0,10,0,14"
+            />
+
+        <Button
+            x:Name="confirm"
+            Text="Home"
+            BorderWidth="2"
+            BorderColor="#ff888f"
+            BackgroundColor="white"
+            TextColor="Black"
+            WidthRequest="105"
+            FontAttributes="Bold"
+            FontSize="14"
+            CornerRadius="20"
+            Margin="0,0,0,0"
+            />
+            
+    </VerticalStackLayout>
+</ContentPage> 

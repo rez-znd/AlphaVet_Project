@@ -1,0 +1,1 @@
+C:\Users\kauef\source\repos\AlphaVet\AlphaVet\AlphaVet.csproj;x64

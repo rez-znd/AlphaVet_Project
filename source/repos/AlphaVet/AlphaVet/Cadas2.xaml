@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlphaVet.Cadas2">
+
+    <Grid 
+        RowDefinitions="*,Auto" 
+        BackgroundColor="White">
+
+        <ScrollView 
+            Grid.Row="0"
+            BackgroundColor="White">
+
+            <VerticalStackLayout 
+                Padding="30,0" 
+                Spacing="15">
+                
+                    <VerticalStackLayout>
+
+                        <Image
+                            WidthRequest="110"
+                            Source="logoalphav.png"
+                            Margin="-135,0,0,10"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                           />
+
+                        <Label
+                            Text="AlphaVet"
+                            FontFamily="AlphaVet"
+                            FontSize="30"
+                            TextColor="Black"
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                            Margin="95,-110,0,15"
+                            />
+                    </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        FontFamily="MainFont"
+                        Text="Nome do pet"
+                        FontAttributes="Bold"
+                        WidthRequest="225"
+                        TextColor="Black"
+                        Padding="0,15,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Entry
+                            x:Name="nomePet"
+                            FontFamily="MainFont"
+                            Placeholder="Ex: Melissa"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                            />
+                        </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        FontFamily="MainFont"
+                        Text="Apelido do pet"
+                        FontAttributes="Bold"
+                        WidthRequest="225"
+                        TextColor="Black"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Entry
+                            x:Name="apelidoPet"
+                            FontFamily="MainFont"
+                            Placeholder="Ex: Mel"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                            
+                            />
+
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        FontFamily="MainFont"
+                        Text="Data de nascimento"
+                        WidthRequest="225"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <DatePicker
+                            x:Name="dataNascimento"
+                            FontFamily="MainFont"
+                            FontSize="18"
+                            HorizontalOptions="Center"
+                            WidthRequest="226"        
+                            FontAttributes="Bold"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                            Format="dd/MM/yyyy"
+                            />
+
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        x:Name="observacao"
+                        FontFamily="MainFont"
+                        Text="Observação"
+                        TextColor="Black"
+                        WidthRequest="225"
+                        FontAttributes="Bold"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Entry
+                            FontFamily="MainFont"
+                            Placeholder="Ex: Raça/Alergias/etc."
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                            />
+
+                    </Border>
+                </VerticalStackLayout>
+
+                <Button
+                    FontFamily="MainFont"
+                    x:Name="confirm"
+                    Text="Confirmar"
+                    BorderWidth="2"
+                    BorderColor="#ff888f"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    WidthRequest="105"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    CornerRadius="20"
+                    Margin="110,10,0,0"
+                    Clicked="confirm_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+                <Button
+                    FontFamily="MainFont"
+                    x:Name="back"
+                    Text="Voltar"
+                    BorderWidth="2"
+                    BorderColor="#ff888f"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    WidthRequest="105"
+                    FontSize="14"
+                    CornerRadius="20"
+                    Margin="0,-58,120,0"
+                    Clicked="back_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Label
+            FontFamily="MainFont"
+            Grid.Row="1"
+            FontSize="16"
+            FontAttributes="Bold"
+            TextColor="Black"
+            Text="Termos de Uso | Política de Dados"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            Padding="10"/>
+    </Grid>
+
+</ContentPage>
