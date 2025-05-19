@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kauef\\source\\repos\\AlphaVet\\AlphaVet\\AlphaVet.csproj": {}
+    "C:\\Users\\kauef\\Project AV\\source\\repos\\AlphaVet\\AlphaVet\\AlphaVet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kauef\\source\\repos\\AlphaVet\\AlphaVet\\AlphaVet.csproj": {
+    "C:\\Users\\kauef\\Project AV\\source\\repos\\AlphaVet\\AlphaVet\\AlphaVet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kauef\\source\\repos\\AlphaVet\\AlphaVet\\AlphaVet.csproj",
+        "projectUniqueName": "C:\\Users\\kauef\\Project AV\\source\\repos\\AlphaVet\\AlphaVet\\AlphaVet.csproj",
         "projectName": "AlphaVet",
-        "projectPath": "C:\\Users\\kauef\\source\\repos\\AlphaVet\\AlphaVet\\AlphaVet.csproj",
+        "projectPath": "C:\\Users\\kauef\\Project AV\\source\\repos\\AlphaVet\\AlphaVet\\AlphaVet.csproj",
         "packagesPath": "C:\\Users\\kauef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kauef\\source\\repos\\AlphaVet\\AlphaVet\\obj\\",
+        "outputPath": "C:\\Users\\kauef\\Project AV\\source\\repos\\AlphaVet\\AlphaVet\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -84,6 +84,10 @@
               "target": "Package",
               "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -149,6 +153,10 @@
               "target": "Package",
               "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -202,6 +210,10 @@
               "target": "Package",
               "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -250,6 +262,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [

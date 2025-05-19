@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.alphavet</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\kauef\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>BFA66B714E36D8581CFA952BB99161227D1734B212462BF5BC36E2197F79A54D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.alphavet_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.alphavet_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,304 +27,304 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-16T00:53:48.309</Modified>
+      <Modified>2025-05-19T20:43:41.256</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-16T00:53:48.053</Modified>
+      <Modified>2025-05-19T20:43:40.943</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AlphaVet.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AlphaVet.runtimeconfig.json">
       <PackagePath>AlphaVet.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-16T00:53:47.551</Modified>
+      <Modified>2025-05-19T20:43:40.495</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AlphaVet.dll">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AlphaVet.dll">
       <PackagePath>AlphaVet.dll</PackagePath>
-      <Modified>2025-04-16T00:53:45.627</Modified>
+      <Modified>2025-05-19T20:43:38.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AlphaVet.exe</PackagePath>
-      <Modified>2025-04-16T00:53:45.706</Modified>
+      <Modified>2025-05-19T20:43:38.762</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-03-02T02:59:16.084</Modified>
+      <Modified>2025-05-08T20:13:41.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:55.182</Modified>
+      <Modified>2025-05-19T20:40:58.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-16T00:36:55.209</Modified>
+      <Modified>2025-05-19T20:40:58.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-16T00:36:55.247</Modified>
+      <Modified>2025-05-19T20:40:58.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-16T00:36:55.302</Modified>
+      <Modified>2025-05-19T20:40:58.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-16T00:36:55.503</Modified>
+      <Modified>2025-05-19T20:40:58.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Bukhari Script.ttf">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Bukhari Script.ttf">
       <PackagePath>Bukhari Script.ttf</PackagePath>
-      <Modified>2025-03-12T15:26:21.606</Modified>
+      <Modified>2025-05-08T20:13:41.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-03-02T02:59:16.036</Modified>
+      <Modified>2025-05-08T20:13:41.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-03-02T02:59:16.055</Modified>
+      <Modified>2025-05-08T20:13:41.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Quicksand-VariableFont_wght.ttf">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Quicksand-VariableFont_wght.ttf">
       <PackagePath>Quicksand-VariableFont_wght.ttf</PackagePath>
-      <Modified>2025-03-21T16:31:47.154</Modified>
+      <Modified>2025-05-08T20:13:41.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\anchieta.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\anchieta.scale-100.png">
       <PackagePath>anchieta.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.978</Modified>
+      <Modified>2025-05-19T20:40:59.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-16T00:36:56.999</Modified>
+      <Modified>2025-05-19T20:40:59.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.981</Modified>
+      <Modified>2025-05-19T20:40:59.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.980</Modified>
+      <Modified>2025-05-19T20:40:59.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.980</Modified>
+      <Modified>2025-05-19T20:40:59.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.979</Modified>
+      <Modified>2025-05-19T20:40:59.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.979</Modified>
+      <Modified>2025-05-19T20:40:59.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.991</Modified>
+      <Modified>2025-05-19T20:40:59.515</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.991</Modified>
+      <Modified>2025-05-19T20:40:59.515</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.990</Modified>
+      <Modified>2025-05-19T20:40:59.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.991</Modified>
+      <Modified>2025-05-19T20:40:59.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.990</Modified>
+      <Modified>2025-05-19T20:40:59.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.993</Modified>
+      <Modified>2025-05-19T20:40:59.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.993</Modified>
+      <Modified>2025-05-19T20:40:59.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.992</Modified>
+      <Modified>2025-05-19T20:40:59.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.993</Modified>
+      <Modified>2025-05-19T20:40:59.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.992</Modified>
+      <Modified>2025-05-19T20:40:59.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.998</Modified>
+      <Modified>2025-05-19T20:40:59.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.998</Modified>
+      <Modified>2025-05-19T20:40:59.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.997</Modified>
+      <Modified>2025-05-19T20:40:59.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.997</Modified>
+      <Modified>2025-05-19T20:40:59.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.996</Modified>
+      <Modified>2025-05-19T20:40:59.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.995</Modified>
+      <Modified>2025-05-19T20:40:59.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.995</Modified>
+      <Modified>2025-05-19T20:40:59.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.994</Modified>
+      <Modified>2025-05-19T20:40:59.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.994</Modified>
+      <Modified>2025-05-19T20:40:59.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.994</Modified>
+      <Modified>2025-05-19T20:40:59.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.986</Modified>
+      <Modified>2025-05-19T20:40:59.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.985</Modified>
+      <Modified>2025-05-19T20:40:59.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.985</Modified>
+      <Modified>2025-05-19T20:40:59.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.985</Modified>
+      <Modified>2025-05-19T20:40:59.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.984</Modified>
+      <Modified>2025-05-19T20:40:59.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.987</Modified>
+      <Modified>2025-05-19T20:40:59.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.987</Modified>
+      <Modified>2025-05-19T20:40:59.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.987</Modified>
+      <Modified>2025-05-19T20:40:59.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.986</Modified>
+      <Modified>2025-05-19T20:40:59.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.986</Modified>
+      <Modified>2025-05-19T20:40:59.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.990</Modified>
+      <Modified>2025-05-19T20:40:59.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.989</Modified>
+      <Modified>2025-05-19T20:40:59.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.988</Modified>
+      <Modified>2025-05-19T20:40:59.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.988</Modified>
+      <Modified>2025-05-19T20:40:59.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.988</Modified>
+      <Modified>2025-05-19T20:40:59.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.984</Modified>
+      <Modified>2025-05-19T20:40:59.508</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.983</Modified>
+      <Modified>2025-05-19T20:40:59.508</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.983</Modified>
+      <Modified>2025-05-19T20:40:59.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.982</Modified>
+      <Modified>2025-05-19T20:40:59.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.982</Modified>
+      <Modified>2025-05-19T20:40:59.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bakcbtn.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bakcbtn.scale-100.png">
       <PackagePath>bakcbtn.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.978</Modified>
+      <Modified>2025-05-19T20:40:59.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dado.scale-100.png">
       <PackagePath>dado.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.978</Modified>
+      <Modified>2025-05-19T20:40:59.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:57.002</Modified>
+      <Modified>2025-05-19T20:40:59.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-16T00:36:57.001</Modified>
+      <Modified>2025-05-19T20:40:59.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-16T00:36:57.001</Modified>
+      <Modified>2025-05-19T20:40:59.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-16T00:36:57.000</Modified>
+      <Modified>2025-05-19T20:40:59.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-16T00:36:57.000</Modified>
+      <Modified>2025-05-19T20:40:59.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoalphav.scale-100.PNG">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoalphav.scale-100.PNG">
       <PackagePath>logoalphav.scale-100.PNG</PackagePath>
-      <Modified>2025-04-16T00:36:56.976</Modified>
+      <Modified>2025-05-19T20:40:59.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mais.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mais.scale-100.png">
       <PackagePath>mais.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.977</Modified>
+      <Modified>2025-05-19T20:40:59.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\png_casinha.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\png_casinha.scale-100.png">
       <PackagePath>png_casinha.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.977</Modified>
+      <Modified>2025-05-19T20:40:59.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sobre.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sobre.scale-100.png">
       <PackagePath>sobre.scale-100.png</PackagePath>
-      <Modified>2025-04-16T00:36:56.979</Modified>
+      <Modified>2025-05-19T20:40:59.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kauef\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AlphaVet.deps.json">
+    <AppxPackagedFile Include="C:\Users\kauef\Project AV\source\repos\AlphaVet\AlphaVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AlphaVet.deps.json">
       <PackagePath>AlphaVet.deps.json</PackagePath>
-      <Modified>2025-04-16T00:53:47.284</Modified>
+      <Modified>2025-05-19T20:43:40.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -465,6 +465,22 @@
     <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-08-01T22:37:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2024-03-27T22:22:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\sqlitepclraw.bundle_green\2.1.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2022-09-18T19:28:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\sqlitepclraw.core\2.1.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2022-09-18T19:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.2\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2022-09-18T19:27:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -609,6 +625,10 @@
     <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.2\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2022-09-18T19:20:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kauef\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

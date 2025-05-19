@@ -1,28 +1,29 @@
-using System.Globalization;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using AlphaVet.Model;
 
 namespace AlphaVet;
 
 public partial class Cadas1 : ContentPage
 {
-    int count = 0;
-
-    public static List<string> AnimaisCadastrados = new List<string>();
-    private string tipoSelecionado;
+    ObservableCollection<especie> lista = new ObservableCollection<especie>();
     public Cadas1()
     {
         InitializeComponent();
-        AtualizarPicker();
+
+        especieList.ItemsSource = lista;
     }
 
-    private void AtualizarPicker()
+    protected async override void OnAppearing()
     {
-        animalList.ItemsSource = AnimalData.ListaDeAnimais.Select(a => a.Type).ToList();
-    }
-    protected override void OnAppearing()
-    {
-        base.OnAppearing();
-        AtualizarPicker();  
+        lista.Clear();
+
+        List<especie> tip = await App.Db.GetAll();
+
+        foreach (especie especie in tip)
+        {
+            lista.Add(especie);
+        }
     }
     private async void OnButtonPressed(object sender, EventArgs e)
     {

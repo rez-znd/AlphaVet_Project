@@ -1,27 +1,22 @@
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using AlphaVet.Model;
 
 namespace AlphaVet;
-public static class AnimalData
-{
-    public static ObservableCollection<Animal> ListaDeAnimais { get; set; } = new ObservableCollection<Animal>();
-}
-
-public class Animal
-{
-    public string Id { get; set; }
-    public string Type { get; set; }
-}
 public partial class AddAnimal : ContentPage
 {
+    ObservableCollection<especie> lista = new ObservableCollection<especie>();
 
-    private ObservableCollection<Animal> animais;
-
-    private Animal animalSelecionado;
     public AddAnimal()
 	{
         InitializeComponent();
-        listViewAnimals.ItemsSource = AnimalData.ListaDeAnimais;
+
+        especielist.ItemsSource = lista;
+    }
+
+    protected async override void OnAppearing()
+    {
+        loadList();
     }
 
     private async void OnButtonPressed(object sender, EventArgs e)
@@ -36,74 +31,98 @@ public partial class AddAnimal : ContentPage
         await button.ScaleTo(1, 100, Easing.CubicInOut);
     }
 
-    private void confirm_Pressed(object sender, EventArgs e)
+    protected async void loadList()
     {
-        if (!string.IsNullOrWhiteSpace(animalV.Text) && !string.IsNullOrWhiteSpace(idV.Text))
+        List<especie> tip = await App.Db.GetAll();
+
+        lista.Clear();
+
+        foreach (especie especie in tip)
         {
-            Animal novoAnimal = new Animal
-            {
-                Id = idV.Text,
-                Type = animalV.Text
-            };
+            lista.Add(especie);
+        }
+    }
 
-            AnimalData.ListaDeAnimais.Add(novoAnimal);
-
-            // Atualiza a CollectionView
-            listViewAnimals.ItemsSource = null;
-            listViewAnimals.ItemsSource = AnimalData.ListaDeAnimais;
-
-            // Limpa os campos
-            idV.Text = "";
-            animalV.Text = "";
+    private async void savebtn_Clicked(object sender, EventArgs e)
+    {
+        if (txtespn.Text == null)
+        {
+            await DisplayAlert("Atenção!", "Preencha os campos necessários.", "Ok");
         }
         else
         {
-            DisplayAlert("Erro", "Preencha todos os campos!", "OK");
+            especie esp = new especie();
+            esp.espnome = txtespn.Text;
+            await App.Db.Insert(esp);
+            await DisplayAlert("Sucesso!", "Registro inserido", "Ok");
+            loadList();
         }
     }
-    private void OnDeleteAnimal(object sender, EventArgs e)
+
+    private async void searchtxt_TextChanged(object sender, TextChangedEventArgs e)
     {
-        if (animalSelecionado != null)
-        {
-            AnimalData.ListaDeAnimais.Remove(animalSelecionado);
+        string q = e.NewTextValue;
+        lista.Clear();
+        List<especie> tip = await App.Db.Search(q);
 
-            // Atualiza a lista e reseta a seleção
-            listViewAnimals.SelectedItem = null;
-            animalSelecionado = null;
-        }
-        else
+        foreach (especie especie in tip)
         {
-            DisplayAlert("Erro", "Selecione um animal para excluir!", "OK");
+            lista.Add(especie);
         }
     }
 
-    private void animalSlct(object sender, SelectionChangedEventArgs e)
+    private async void MenuItem_Clicked(object sender, EventArgs e)
     {
-        if (e.CurrentSelection.Count > 0)
+        MenuItem selecionado = sender as MenuItem;
+
+        especie p = selecionado.BindingContext as especie;
+
+        bool confirm = await DisplayAlert("Aviso", "Confirmar a remoção dos dados?", "Sim", "Não");
+
+        if (confirm == true)
         {
-            animalSelecionado = e.CurrentSelection[0] as Animal;
+            await App.Db.Delete(p.espid);
+            lista.Remove(p);
+            await DisplayAlert("aviso", "Conteúdo deletado do banco com sucesso", "OK");
+            loadList();
         }
     }
-    private void delButton_Pressed(object sender, EventArgs e)
-    {
-        if (animalSelecionado != null)
-        {
-            AnimalData.ListaDeAnimais.Remove(animalSelecionado);
 
-
-            listViewAnimals.SelectedItem = null;
-            listViewAnimals.ItemsSource = null;
-            listViewAnimals.ItemsSource = AnimalData.ListaDeAnimais;
-
-            animalSelecionado = null;
-        }
-        else
-        {
-            DisplayAlert("Erro", "Selecione um animal para excluir!", "OK");
-        }
-    }
     private async void save_Pressed(object sender, EventArgs e)
     {
         await Navigation.PopAsync();
+    }
+
+    private void clean_Clicked(object sender, EventArgs e)
+    {
+        txtid.Text = string.Empty;
+        txtespn.Text = string.Empty;
+    }
+
+    private void change_Clicked(object sender, EventArgs e)
+    {
+        if (txtespn.Text == null)
+        {
+            DisplayAlert("Atenção!", "Preencha os campos necessários.", "Ok");
+        }
+
+        else
+        {
+            especie p = new especie();
+            p.espid = int.Parse(txtid.Text);
+            p.espnome = txtespn.Text;
+
+            App.Db.Update(p);
+            DisplayAlert("Alteração", "Registro alterado!", "Ok");
+            loadList();
+        }
+    }
+
+    private void especielist_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+    {
+        especie p = e.SelectedItem as especie;
+
+        txtid.Text = p.espid.ToString();
+        txtespn.Text = p.espnome.ToString();
     }
 }

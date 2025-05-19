@@ -7,6 +7,7 @@ public partial class HomePage : ContentPage
 		InitializeComponent();
 	}
 
+    [Obsolete]
     protected override bool OnBackButtonPressed()
     {
         Device.BeginInvokeOnMainThread(async () =>
