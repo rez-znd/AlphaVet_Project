@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlphaVet.MainPage"
+             Title="Menu Principal">
+
+    <Grid 
+        RowDefinitions="*,Auto" 
+        BackgroundColor="White">
+
+        <ScrollView 
+            Grid.Row="0"
+            BackgroundColor="White">
+
+            <VerticalStackLayout 
+                Padding="30,0" 
+                Spacing="15">
+
+                <Image
+                    WidthRequest="160"
+                    Source="logoalphav.png"
+                    Margin="0,40,0,5"/>
+
+                <Label
+                    Text="AlphaVet"
+                    FontFamily="AlphaVet"
+                    FontSize="33"
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    Margin="0,-60,0,30"
+                    />
+
+                <Label
+                    Text="Como podemos ajudar?"
+                    FontFamily="MainFont"
+                    FontAttributes="Bold"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    TextColor="Black"
+                    FontSize="24"
+                    Margin="0,-15,2,2"/>
+
+                <Button
+                    x:Name="clientes"
+                    FontFamily="MainFont"
+                    Text="Acessar clientes"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    BorderColor="#ff888f"
+                    BorderWidth="2"
+                    FontSize="18"
+                    WidthRequest="180"
+                    Clicked="clientes_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+                
+                <Button
+                    x:Name="especies"
+                    FontFamily="MainFont"
+                    Text="Acessar espécies"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    BorderColor="#ff888f"
+                    BorderWidth="2"
+                    FontSize="18"
+                    WidthRequest="180"
+                    Clicked="especies_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+                <Button
+                    x:Name="animais"
+                    Text="Acessar animais"
+                    FontAttributes="Bold"
+                    FontFamily="MainFont"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    BorderColor="#ff888f"
+                    BorderWidth="2"
+                    FontSize="18"
+                    WidthRequest="180"
+                    Clicked="animais_Pressed"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Label
+            FontFamily="MainFont"
+            x:Name="termos"
+            FontSize="16"
+            TextColor="Black"
+            FontAttributes="Bold"
+            Grid.Row="1"
+            Text="Termos de Uso | Política de Dados"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            Padding="10"/>
+    </Grid>
+
+</ContentPage>

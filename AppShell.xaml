@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AlphaVet.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AlphaVet"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Acesso ao Sistema">
+
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout>
+            <Label 
+                Text="Navegar"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                FontSize="30"
+                TextColor="Black"
+                FontFamily="MainFont"
+                BackgroundColor="#ff888f"
+                Padding="0,0,0,10"/>
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Navegar"
+                FlyoutDisplayOptions="AsMultipleItems"
+                >
+        <ShellContent
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage"
+                Title="Menu Principal"
+                Icon="png_casinha.png"/>
+
+        <ShellContent
+                ContentTemplate="{DataTemplate local:tblespecies}"
+                Route="tblespecies"
+                Title="Cadastrar Espécies"
+                Icon="mais.png"/>
+    
+        <ShellContent
+                ContentTemplate="{DataTemplate local:tblanimais}"
+                Route="tblanimais"
+                Title="Cadastrar Animais"
+                Icon="pata.png"/>
+
+        <ShellContent
+                ContentTemplate="{DataTemplate local:tblclientes}"
+                Route="tblclientes"
+                Title="Cadastrar Clientes"
+                Icon="cliente.png"/>
+        
+        <ShellContent
+                ContentTemplate="{DataTemplate local:Sobre}"
+                Route="Sobre"
+                Title="Dados do Dev."
+                Icon="dado.png"/>
+
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <VerticalStackLayout
+            BackgroundColor="#ff888f"
+            Padding="10">
+            <Label 
+                Text="Kauê Fóes - RA: 2404737"
+                HorizontalOptions="Center"
+                FontAttributes="Bold"
+                TextColor="Black"
+                FontSize="16"
+                FontFamily="MainFont"
+                />
+        </VerticalStackLayout>
+    </Shell.FlyoutFooter>
+    
+</Shell>

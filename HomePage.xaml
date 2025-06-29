@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlphaVet.HomePage">
+    <VerticalStackLayout
+        BackgroundColor="White">
+        
+        <Image
+            Source="logoalphav.png"
+            WidthRequest="220"
+            Margin="0,110,0,0"/>
+
+        <Label
+            Text="AlphaVet"
+            HorizontalOptions="Center"
+            FontFamily="AlphaVet"
+            FontSize="45"
+            TextColor="Black"
+            Margin="0,-60,0,0"/>
+        
+
+    </VerticalStackLayout>
+</ContentPage>

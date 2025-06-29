@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlphaVet.tblanimais">
+
+    <Grid 
+        RowDefinitions="*,Auto" 
+        BackgroundColor="White">
+
+        <ScrollView 
+            Grid.Row="0"
+            BackgroundColor="White">
+
+            <VerticalStackLayout 
+                Padding="30,0" 
+                Spacing="15">
+                
+                <VerticalStackLayout>
+
+                    <Image
+                        WidthRequest="110"
+                        Source="logoalphav.png"
+                        Margin="-135,0,0,10"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        />
+
+                    <Label
+                        Text="AlphaVet"
+                        FontFamily="AlphaVet"
+                        FontSize="30"
+                        TextColor="Black"
+                        VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                        Margin="95,-110,0,15"
+                        />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        FontFamily="MainFont"
+                        Text="ID do animal"
+                        FontAttributes="Bold"
+                        WidthRequest="225"
+                        TextColor="Black"
+                        Padding="0,15,0,5"
+                        FontSize="18"/> 
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Entry
+                            x:Name="txtid"
+                            FontFamily="MainFont"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            BackgroundColor="white"
+                            TextColor="Black"/>
+                        
+                    </Border>
+                </VerticalStackLayout>
+                
+                <VerticalStackLayout>
+
+                    <Label
+                        FontFamily="MainFont"
+                        Text="Nome do pet"
+                        FontAttributes="Bold"
+                        WidthRequest="225"
+                        TextColor="Black"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Entry
+                            x:Name="txtpet"
+                            FontFamily="MainFont"
+                            Placeholder="Ex: Melissa"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                            />
+                        </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        FontFamily="MainFont"
+                        Text="Apelido do pet"
+                        FontAttributes="Bold"
+                        WidthRequest="225"
+                        TextColor="Black"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Entry
+                            x:Name="txtapelido"
+                            FontFamily="MainFont"
+                            Placeholder="Ex: Mel"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                            
+                            />
+
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        FontFamily="MainFont"
+                        Text="Data de nascimento"
+                        WidthRequest="225"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Entry
+                            x:Name="txtnasc"
+                            FontFamily="MainFont"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                            TextChanged="txtnasc_TextChanged"
+                            />
+
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        FontFamily="MainFont"
+                        Text="Observação"
+                        TextColor="Black"
+                        WidthRequest="225"
+                        FontAttributes="Bold"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="45"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Entry
+                            x:Name="txtobs"
+                            FontFamily="MainFont"
+                            Placeholder="Ex: Raça/Alergias/etc."
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            BackgroundColor="white"
+                            TextColor="Black"
+                            />
+
+                    </Border>
+                    
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        x:Name="espid"
+                        FontFamily="MainFont"
+                        Text="ID da espécie"
+                        TextColor="Black"
+                        WidthRequest="225"
+                        FontAttributes="Bold"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="48"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Picker  
+                            x:Name="especieList"
+                            SelectedIndex="0"
+                            ItemDisplayBinding="{Binding espnome}"
+                            VerticalTextAlignment="Center"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            TextColor="Black"
+                            WidthRequest="225"
+                            FontFamily="MainFont">
+                        </Picker>
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label
+                        x:Name="cliid"
+                        FontFamily="MainFont"
+                        Text="ID do cliente"
+                        TextColor="Black"
+                        WidthRequest="225"
+                        FontAttributes="Bold"
+                        Padding="0,0,0,5"
+                        FontSize="18"/>
+
+                    <Border
+                        Stroke="#ff888f"
+                        StrokeThickness="2"
+                        HeightRequest="48"
+                        WidthRequest="230"
+                        StrokeShape="RoundRectangle 5">
+
+                        <Picker  
+                            x:Name="clienteList"
+                            SelectedIndex="0"
+                            ItemDisplayBinding="{Binding clinome}"
+                            VerticalTextAlignment="Center"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            TextColor="Black"
+                            WidthRequest="225"
+                            FontFamily="MainFont">
+                        </Picker>
+                    </Border>
+                </VerticalStackLayout>
+
+                <Button
+                    FontFamily="MainFont"
+                    x:Name="insertbtn"
+                    Text="Inserir"
+                    BorderWidth="2"
+                    BorderColor="#ff888f"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    WidthRequest="105"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    Margin="125,0,0,0"
+                    CornerRadius="20"
+                    Clicked="insertbtn_Clicked"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+                <Button
+                    FontFamily="MainFont"
+                    x:Name="change"
+                    Text="Alterar"
+                    BorderWidth="2"
+                    BorderColor="#ff888f"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    WidthRequest="105"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    Margin="-125,-58,0,0"
+                    CornerRadius="20"
+                    Clicked="change_Clicked"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+                <Button
+                    FontFamily="MainFont"
+                    x:Name="clean"
+                    Text="Limpar"
+                    BorderWidth="2"
+                    BorderColor="#ff888f"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    WidthRequest="105"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    CornerRadius="20"
+                    Clicked="clean_Clicked"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+
+                <Border
+                    Stroke="#ff888f"
+                    StrokeThickness="2"
+                    HeightRequest="50"
+                    WidthRequest="250"
+                    StrokeShape="RoundRectangle 5">
+
+                    <SearchBar x:Name="searchtxt" 
+                        Placeholder="Procurar Pet"
+                        TextChanged="searchtxt_TextChanged"
+                        />
+
+                </Border>
+
+                <Border
+                    Stroke="#ff888f"
+                    StrokeThickness="2"
+                    StrokeShape="RoundRectangle 5"
+                    HeightRequest="300">
+
+                    <ScrollView Orientation="Horizontal">
+                        <VerticalStackLayout>
+
+                            <Grid ColumnDefinitions="120,120,120,160,200,120,120" Padding="5" BackgroundColor="#eee">
+                                <Label Grid.Column="0" Text="ID do Pet" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Grid.Column="1" Text="Nome do Pet" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Grid.Column="2" Text="Apelido do Pet" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Grid.Column="3" Text="Data de Nascimento" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Grid.Column="4" Text="Observações" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Grid.Column="5" Text="ID da espécie" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Grid.Column="6" Text="ID do cliente" FontAttributes="Bold" HorizontalOptions="Center"/>
+                            </Grid>
+
+                            <CollectionView x:Name="animalList"
+                            HeightRequest="250"
+                            SelectionMode="Single"
+                            SelectionChanged="animalList_SelectionChanged">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <SwipeView>
+                                            <SwipeView.RightItems>
+                                                <SwipeItems Mode="Reveal">
+                                                    <SwipeItem
+                                                    Text="Remover"
+                                                    BackgroundColor="Red"
+                                                    Invoked="SwipeItem_Invoked" />
+                                                </SwipeItems>
+                                            </SwipeView.RightItems>
+                                            <Grid ColumnDefinitions="120,120,120,160,200,120,120" Padding="5">
+                                                <Label Grid.Column="0" Text="{Binding aniid}" HorizontalOptions="Center"/>
+                                                <Label Grid.Column="1" Text="{Binding aninome}" HorizontalOptions="Center"/>
+                                                <Label Grid.Column="2" Text="{Binding aniapelido}" HorizontalOptions="Center"/>
+                                                <Label Grid.Column="3" Text="{Binding anidatanasc}" HorizontalOptions="Center"/>
+                                                <Label Grid.Column="4" Text="{Binding aniobservacoes}" HorizontalOptions="Center"/>
+                                                <Label Grid.Column="5" Text="{Binding espid}" HorizontalOptions="Center"/>
+                                                <Label Grid.Column="6" Text="{Binding cliid}" HorizontalOptions="Center"/>
+                                            </Grid>
+                                        </SwipeView>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+
+                        </VerticalStackLayout>
+                    </ScrollView>
+                </Border>
+
+
+                <Button
+                    FontFamily="MainFont"
+                    x:Name="back"
+                    Text="Voltar"
+                    BorderWidth="2"
+                    BorderColor="#ff888f"
+                    BackgroundColor="white"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    WidthRequest="105"
+                    FontSize="16"
+                    CornerRadius="20"
+                    Clicked="back_Clicked"
+                    Pressed="OnButtonPressed"
+                    Released="OnButtonReleased"/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Label
+            FontFamily="MainFont"
+            Grid.Row="1"
+            FontSize="16"
+            FontAttributes="Bold"
+            TextColor="Black"
+            Text="Termos de Uso | Política de Dados"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            Padding="10"/>
+    </Grid>
+
+</ContentPage>
