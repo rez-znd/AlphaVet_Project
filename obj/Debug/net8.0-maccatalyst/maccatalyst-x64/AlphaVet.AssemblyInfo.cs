@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlphaVet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a26572f8e2e6bb6c8b0bb7c3abbcb864b5f05609")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b53a1b8c2b5d7a89d6b15b95be0d41c5ae0f3aaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlphaVet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlphaVet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
