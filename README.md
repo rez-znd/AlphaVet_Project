@@ -1,4 +1,4 @@
-🐾 AlphaVet — Aplicativo de Gestão Veterinária
+# 🐾 AlphaVet — Aplicativo de Gestão Veterinária
 
 AlphaVet é um aplicativo desenvolvido com .NET MAUI e SQLite, criado como parte dos meus estudos na faculdade para consolidar conhecimentos em desenvolvimento de aplicativos multiplataforma com C#.
 
@@ -34,8 +34,3 @@ Este projeto tem como objetivo oferecer uma solução simples e funcional para o
 - 🔒 Adicionar autenticação de usuários
 - 🔎 Filtros e busca de registros
 - 📱 Melhorar responsividade para diferentes tamanhos de tela
-
-## 📷 Uma pequena amostra...
-
-> ![Uploading Imagem do WhatsApp de 2025-06-30 à(s) 00.53.32_a126f59e.jpg…]()
-
