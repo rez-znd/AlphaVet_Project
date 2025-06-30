@@ -7,7 +7,6 @@ namespace AlphaVet
         static SQLiteDBhelpers _db;
         static clientesqlhelper _clientedb;
         static animalsqlhelper _animaldb;
-        static usersqlhelper _userdb;
 
         public static SQLiteDBhelpers Db
         {
@@ -54,22 +53,6 @@ namespace AlphaVet
                     _animaldb = new animalsqlhelper(path);
                 }
                 return _animaldb;
-            }
-        }
-
-        public static usersqlhelper userdb
-        {
-            get
-            {
-                if (_userdb == null)
-                {
-                    string path = Path.Combine(
-                        Environment.GetFolderPath(
-                            Environment.SpecialFolder.LocalApplicationData),
-                        "banco_sqlite_compras.db3");
-                    _userdb = new usersqlhelper(path);
-                }
-                return _userdb;
             }
         }
 
